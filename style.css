@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #bd2866;
+    background: #00144b;
 }
 .Login{
     background: rgba(0,0,0,.5);
@@ -51,12 +51,12 @@ body {
 .Login .box-user input:valid~label{
     top: -20px;
     left: 0;
-    color: #FAE8E0;
+    color: #e2e0fa;
     font-size: 12px;
 }
 .forget{
     font-size: 12px;
-    color: #FAE8E0;
+    color: #e2e0fa;
     display: flex;
     justify-content: flex-end;
 }
@@ -64,7 +64,7 @@ body {
     position: relative;
     display: inline-block;
     padding: 12px 20px;
-    color: #FAE8E0;
+    color: #e2e0fa;
     text-decoration: none;
     font-size: 13px; 
     text-transform: uppercase;
@@ -78,7 +78,7 @@ body {
 .btn:hover {
     background: #FAE8E0;
     border-radius: 5px;
-    color: #EF7C8E;
+    color: #00144b;
 }
 .btn span{
     position: absolute; 
